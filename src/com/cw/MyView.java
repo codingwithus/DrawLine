@@ -23,6 +23,7 @@ public class MyView extends View{
 		paint = new Paint();
 		paint.setColor(0x00FF77);
 		paint.setAlpha(255);
+		Log.i("", "");
 	}
 	@Override
 	public void draw(Canvas canvas) {
